@@ -1,0 +1,12 @@
+
+
+
+
+<div id="chat"></div>
+
+<script src="assets/js/jquery-1.9.1.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#chat").load("http://127.0.0.1:3000");
+	});
+</script>
